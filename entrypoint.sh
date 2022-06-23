@@ -62,4 +62,3 @@ echo "[${PORT}]"
 
 echo "Starting SickBeard..."
 exec su -p ${USER} -c "python -OO /opt/sickbeard/SickBeard.py --nolaunch --datadir=$(dirname ${CONFIG})"
-#exec /bin/sh
